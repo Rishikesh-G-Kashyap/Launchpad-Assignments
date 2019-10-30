@@ -1,0 +1,11 @@
+k=str(input("Enter Name:"))
+v=str(input("Enter USN:"))
+q=str(input("Enter Name:"))
+w=str(input("Enter USN:"))
+a=str(input("Enter Name:"))
+s=str(input("Enter USN:"))
+d={}
+d.update({v:k})
+d.update({w:q})
+d.update({s:a})
+print(d)
